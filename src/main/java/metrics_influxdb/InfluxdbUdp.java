@@ -12,7 +12,7 @@ public class InfluxdbUdp implements Influxdb {
 	public boolean debugJson = false;
 
 	public InfluxdbUdp(String host, int port) {
-		jsonBuilders = new ArrayList<>();
+		jsonBuilders = new ArrayList<JsonBuilder>();
 
 		this.host = host;
 		this.port = port;
